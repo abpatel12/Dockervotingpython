@@ -1,0 +1,17 @@
+docker compose up --build
+
+for database
+docker exec -it d513969e478417b9736c5a28a256b406d4e9d9e119ac851b450c0ca4395ec454 mysql -u user -p
+password
+show databases;
+use testdb
+select * from messages
+
+for frontend
+
+http://localhost:8080
+
+for backend
+
+http://localhost:3000/api
+
